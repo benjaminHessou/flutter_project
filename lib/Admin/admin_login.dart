@@ -107,7 +107,7 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
                                   TextFormField(
                                     controller: emailController,
                                     validator: (val) => val == ""
-                                        ? "Veuillez écrire un e-mail"
+                                        ? "Veuillez écrire un e-mail ok"
                                         : null,
                                     decoration: InputDecoration(
                                       prefixIcon: const Icon(
